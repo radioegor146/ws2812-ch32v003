@@ -1,5 +1,5 @@
-#ifndef WS2812_H_
-#define WS2812_H_
+#ifndef WS2812_WS2812_H_
+#define WS2812_WS2812_H_
 
 #include <stdint.h>
 #include <stddef.h>
@@ -13,4 +13,4 @@ typedef struct __attribute__((packed)) {
 
 void WriteWS2812(Color* colors, size_t size, void* port, uint32_t pin);
 
-#endif  // WS2812_H_
+#endif  // WS2812_WS2812_H_
